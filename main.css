@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  height: 100000px;
+}
+
 #wrapper {
   position: fixed;
   width: 100%;
@@ -15,14 +19,58 @@
 
 #wrapper span {
   display: block;
-  border: solid;
+  /* border: solid; */
   position: fixed;
   z-index: 10;
 }
 
 #f1 {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 160px;
   background: url("Images/fish1.png") no-repeat;
   left: -300px;
+}
+
+#f2 {
+  width: 80px;
+  height: 55px;
+  background: url("Images/fish2.png") no-repeat;
+  background-size: 100px;
+  top: 200px;
+}
+
+#f3 {
+  width: 110px;
+  height: 80px;
+  background: url("Images/fish2.png") no-repeat;
+  background-size: 150px;
+  top: 260px;
+  left: 85px;
+}
+
+#f4 {
+  width: 130px;
+  height: 100px;
+  background: url("Images/turtle.png") no-repeat;
+  background-size: 150px;
+  right: -200px;
+  bottom: 0;
+}
+
+#f5 {
+  width: 150px;
+  height: 120px;
+  background: url("Images/fish1.png") no-repeat;
+  background-size: 150px;
+  top: 500px;
+  left: -500px;
+}
+
+#f6 {
+  width: 150px;
+  height: 120px;
+  background: url("Images/fish3.png") no-repeat;
+  right: -800px;
+  bottom: 260px;
+
 }
