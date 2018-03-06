@@ -72,5 +72,13 @@ body {
   background: url("Images/fish3.png") no-repeat;
   right: -800px;
   bottom: 260px;
+}
 
+#para {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: solid 1px black;
+  right: 700px;
+  bottom: -500px;
 }

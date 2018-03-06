@@ -4,6 +4,8 @@ var f3 = document.getElementById("f3");
 var f4 = document.getElementById("f4");
 var f5 = document.getElementById("f5");
 var f6 = document.getElementById("f6");
+var para = document.getElementById("para");
+
 
 function parallax () {
   f1.style.left = ((window.pageYOffset/10) - 300) + "px";
@@ -15,6 +17,9 @@ function parallax () {
 
   f5.style.left = ((window.pageYOffset/15) - 500) + "px";
   f6.style.right = ((window.pageYOffset/8) - 800) + "px";
+
+  para.style.bottom = ((window.pageYOffset/10) - 500) + "px";
+
 }
 
 window.addEventListener("scroll", parallax);
